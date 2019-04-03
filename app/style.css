@@ -1,0 +1,20 @@
+body {
+  color: white;
+  background-color: #3A3D87;
+}
+
+section {
+  border-bottom: 3px solid #F25A3F;
+}
+
+.gallery {
+  height: 30rem;
+}
+
+.carousel-item {
+  width: 100%;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  align-items: flex-end;
+}
