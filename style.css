@@ -1,10 +1,10 @@
 body {
   color: white;
-  background-color: #3A3D87;
+  background-color: #57607E;
 }
 
 section {
-  border-bottom: 3px solid #F25A3F;
+  border-bottom: 3px solid #F2513B;
 }
 
 .gallery {
@@ -17,4 +17,128 @@ section {
 
 .carousel-control-next, .carousel-control-prev {
   align-items: flex-end;
+}
+
+.orange_square{
+  height: 100px;
+  width: 100%;
+  background-color: #F2513B;
+}
+
+.orange-hr{
+  background-color: #F2513B;
+  height: 3px;
+  max-width: 20%;
+}
+
+.center{
+  margin-left: 9%;
+}
+
+.first-service{
+  background-color: #354253;
+}
+
+.second-service{
+  background-color: #F0DCC2;
+}
+
+.no-border{
+  border: 0px !important;
+}
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  .orange_square{
+    position: absolute;
+    left: 0;
+    height: 100px;
+    width: 250px;
+    background-color: #F2513B;
+  }
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .orange_square{
+    left: 0;
+    height: 100px;
+    width: 250px;
+    background-color: #F2513B;
+  }
+
+  .text-square{
+    margin-left: 90%;
+    margin-top: 10%;
+    max-width: 1%;
+  }
+
+  .upper-border{
+    border-top: 3px solid #F2513B;
+  }
+  
+  .telephones{
+    margin-left: 10%;
+  }
+
+  .message{
+    text-align:center;
+    color:  #F2513B;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  //CSS
+  
 }

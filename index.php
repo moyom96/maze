@@ -1,3 +1,4 @@
+
 <?php
   include("header.html");
   include("el_laberinto.html");
