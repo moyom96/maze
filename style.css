@@ -7,6 +7,64 @@ section {
   border-bottom: 3px solid #F2513B;
 }
 
+.header-div{
+  background-color: rgb(180, 167, 153);
+  color: rgb(211, 198, 186);
+  margin: 0;
+}
+
+#header-social{
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+.social-item{
+  padding-left: 15px;
+  font-size: 130%;
+  color: rgb(85, 98, 122);
+}
+
+#dish-row{
+  margin-top: -240px;
+}
+
+#dish-img{
+  max-height: 20rem;
+  box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.75);
+  background-color: rgb(202, 203, 198);
+}
+
+
+.header-subtitle{
+  word-spacing: 20px;
+}
+
+.orange-text{
+  line-height: 70px;
+}
+
+#navbar{
+  font-size: 1.5rem;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.navbar-toggler-icon{
+  color: rgb(211, 198, 186) !important;
+} 
+
+.nav-link{
+  color: rgb(211, 198, 186);
+}
+
+.nav-item{
+  padding: 40px;
+}
+
+#taste{
+  padding-left: 65px;
+}
+
 .gallery {
   height: 30rem;
 }
@@ -62,6 +120,11 @@ section {
     width: 250px;
     background-color: #F2513B;
   }
+
+  .orange-text{
+    color: #F2513B;
+    font-size: 5rem;
+  }
   
 }
 
@@ -77,6 +140,11 @@ section {
     height: 100px;
     width: 250px;
     background-color: #F2513B;
+  }
+
+  .orange-text{
+    color: #F2513B;
+    font-size: 5rem;
   }
 
   .text-square{
@@ -105,8 +173,12 @@ section {
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
+
+  .orange-text{
+    color: #F2513B;
+    font-size: 5rem;
+  }
   
-  //CSS
   
 }
 
@@ -117,7 +189,10 @@ section {
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   
-  //CSS
+  .orange-text{
+    color: #F2513B;
+    font-size: 5rem;
+  }
   
 }
 
@@ -128,7 +203,11 @@ section {
 
 @media (min-width: 481px) and (max-width: 767px) {
   
-  //CSS
+
+  .orange-text{
+    color: #F2513B;
+    font-size: 3rem;
+  }
   
 }
 
@@ -138,7 +217,10 @@ section {
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
-  //CSS
+
+  .orange-text{
+    color: #F2513B;
+    font-size: 5rem;
+  }
   
 }
