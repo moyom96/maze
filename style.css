@@ -18,16 +18,23 @@ section {
   padding-top: 15px;
 }
 
-.social-item{
-  padding-left: 15px;
-  font-size: 130%;
+a i {
+  text-decoration: none; 
   color: rgb(85, 98, 122);
 }
 
-#dish-row{
-  
-}
+a.noClass:link i {text-decoration:none;}    /* unvisited link */
+a.noClass:visited i {text-decoration:none;} /* visited link */
+a.noClass:hover i {text-decoration:none;}   /* mouse over link */
+a.noClass:active i {text-decoration:none;}  /* selected link */
 
+.no-padding{
+  padding: 0;
+}
+.social-item{
+  padding-left: 15px;
+  font-size: 130%;
+}
 
 .header-subtitle{
   word-spacing: 20px;
@@ -41,6 +48,7 @@ section {
   font-size: 1.5rem;
   padding-left: 30px;
   padding-right: 30px;
+  padding-bottom: 40px;
 }
 
 .navbar-toggler-icon{
@@ -52,11 +60,38 @@ section {
 }
 
 .nav-item{
-  padding: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
 #taste{
   padding-left: 65px;
+}
+
+#laberinto-text{
+  margin-top: 5%;
+  padding-right: 50px;
+}
+
+#laberinto-text:after{
+  content: '';
+	width: 5%;
+	left: 55%;
+	height: 8px;
+	background: #F2513B;
+	position: absolute;
+	bottom: -1px;
+}
+
+#laberinto-text-col{
+  margin-bottom: 20px;
+  padding-left: 0;
+}
+
+#laberinto-video{
+    object-fit: initial;
+    width: 300px;
+    height: 400px;
 }
 
 .gallery {
@@ -125,6 +160,10 @@ section {
     color: #F2513B;
     font-size: 5rem;
   }
+
+  #laberinto-text{
+    margin-left: 40px;
+  }
   
 }
 
@@ -138,7 +177,7 @@ section {
   #dish-img{
     max-height: 18rem;
     box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.75);
-    background-color: rgb(202, 203, 198);
+    background-color: rgb(244, 244, 241);
     margin-top: -220px;
   }
   
@@ -158,6 +197,10 @@ section {
     margin-left: 90%;
     margin-top: 10%;
     max-width: 1%;
+  }
+
+  #laberinto-text{
+    margin-left: 40px;
   }
 
   .upper-border{
@@ -184,7 +227,7 @@ section {
   #dish-img{
     max-height: 15rem;
     box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.75);
-    background-color: rgb(202, 203, 198);
+    background-color: rgb(244, 244, 241);
     margin-top: -110px;
   }
 
@@ -196,8 +239,11 @@ section {
     color: #F2513B;
     font-size: 5rem;
   }
-  
-  
+
+  #laberinto-text{
+    margin-left: 40px;
+  }
+
 }
 
 /* 
@@ -215,12 +261,16 @@ section {
   #dish-img{
     max-height: 15rem;
     box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.75);
-    background-color: rgb(202, 203, 198);
+    background-color: rgb(244, 244, 241);
     margin-top: -110px;
   }
 
   #taste{
     min-height: 270px;
+  }
+
+  #laberinto-text{
+    padding: 30px;
   }
   
 }
@@ -241,12 +291,16 @@ section {
   #dish-img{
     max-height: 10rem;
     box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.75);
-    background-color: rgb(202, 203, 198);
+    background-color: rgb(244, 244, 241);
     margin-top: -90px;
   }
 
   #taste{
     min-height: 270px;
+  }
+
+  #laberinto-text{
+    margin-left: 40px;
   }
   
 }
@@ -260,18 +314,22 @@ section {
 
   .orange-text{
     color: #F2513B;
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   #dish-img{
     max-height: 8rem;
     box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.75);
-    background-color: rgb(202, 203, 198);
+    background-color: rgb(244, 244, 241);
     margin-top: -30px;
   }
 
   #taste{
     min-height: 270px;
+  }
+
+  #laberinto-text{
+    margin-left: 5%;
   }
   
 }
