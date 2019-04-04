@@ -3,9 +3,11 @@ body {
   background-color: #57607E;
 }
 
-section {
-  border-bottom: 3px solid #F2513B;
+section.full-height {
+  min-height: 100vh;
 }
+
+
 
 .header-div{
   background-color: rgb(180, 167, 153);
@@ -18,7 +20,7 @@ section {
   padding-top: 15px;
 }
 
-a i {
+a.noClass i {
   text-decoration: none; 
   color: rgb(85, 98, 122);
 }
@@ -66,6 +68,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
 #taste{
   padding-left: 65px;
+  height: 50vh;
 }
 
 #laberinto-text{
@@ -83,6 +86,10 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 	bottom: -1px;
 }
 
+#el-laberinto{
+  height: 85vh;
+}
+
 #laberinto-text-col{
   margin-bottom: 20px;
   padding-left: 0;
@@ -96,6 +103,10 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
 .gallery {
   height: 30rem;
+}
+
+.video-row{
+  width: 100%;
 }
 
 /* Gallery */
@@ -116,11 +127,11 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 }
 
 .video1-col {
-  height: 80vh;
+  height: 65vh;
 }
 
 .video2-col {
-  height: 30vh;
+  height: 25vh;
 }
 
 .video {
