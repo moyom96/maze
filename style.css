@@ -98,12 +98,46 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   height: 30rem;
 }
 
+/* Gallery */
+
 .carousel-item {
-  width: 100%;
+  height: 100%;
+  max-height: 50vh;
+  max-width: 100%;
+  object-fit: cover;
 }
 
 .carousel-control-next, .carousel-control-prev {
   align-items: flex-end;
+}
+
+.carousel-next, .carousel-prev {
+  cursor: pointer;
+}
+
+.video1-col {
+  height: 80vh;
+}
+
+.video2-col {
+  height: 30vh;
+}
+
+.video {
+  object-fit: fill;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.img-overlay {
+  position: absolute;
+  z-index: 100;
+  left: 25%;
+  top: 15vh;
+  width: 50%;
+  height: 50vh;
+  object-fit: cover;
 }
 
 .orange_square{
@@ -133,7 +167,6 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 .no-border{
   border: 0px !important;
 }
-
 
 /* 
   ##Device = Desktops
