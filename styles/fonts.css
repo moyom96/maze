@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'SlabTallX';
+  src: url("/fonts/SlabTallX.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SlabTallXMedium';
+  src: url("/fonts/SlabTallX-Medium.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Akzidenz-Grotesk BQ Extended Medium';
+  src: url("/fonts/AkzidenzGrotesk-MediumExtended.otf") format("opentype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Akzidenz-Grotesk BQ Extended Regular';
+  src: url("/fonts/AkzidenzGrotesk-LightExtended.otf") format("opentype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AnderfontFree ';
+  src: url("/fonts/AnderfontFree.otf") format("opentype");
+  font-style: normal;
+}
+

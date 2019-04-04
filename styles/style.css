@@ -1,6 +1,6 @@
 body {
   color: white;
-  background-color: #57607E;
+  background-color: #57627b;
 }
 
 section.full-height {
@@ -23,29 +23,6 @@ section.full-height {
   opacity: 0;
 }
 
-#typewriter-1{
-  left: 5vw;
-  top: 260vh;
-}
-
-#typewriter-2{
-  margin-left: 90vw;
-  top: 360vh;
-}
-
-.typewriter-animate{
-  opacity: 1;
-  position: absolute;
-  transform: rotate(270deg);
-  transform-origin: 0% 0%; 
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .20em; /* Adjust as needed */
-  animation: typing 3.5s steps(80, end);
-}
-
-
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
@@ -57,14 +34,30 @@ section.full-height {
 }
 
 .header-div{
-  background-color: rgb(180, 167, 153);
-  color: rgb(211, 198, 186);
+  background-color: #b2a798;
+  color: #e8dcd0;
   margin: 0;
+}
+
+.title-regular{
+  font-family: "Akzidenz-Grotesk BQ Extended Regular";
+}
+
+.title-medium{
+  font-family: "Akzidenz-Grotesk BQ Extended Medium";
 }
 
 #header-social{
   padding-right: 15px;
   padding-top: 15px;
+}
+
+.header-subtitle, .slab-text{
+  font-family: "SlabTallX";
+}
+
+.slab-medium-text{
+  font-family: "SlabTallXMedium";
 }
 
 a.noClass i {
@@ -111,6 +104,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 .nav-item{
   padding-right: 40px;
   padding-left: 40px;
+  font-family: 'SlabTallX';
 }
 
 #taste{
@@ -128,7 +122,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 	width: 5%;
 	left: 55%;
 	height: 8px;
-	background: #F2513B;
+	background: #e95338;
 	position: absolute;
 	bottom: -1px;
 }
@@ -201,11 +195,11 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 .orange_square{
   height: 100px;
   width: 100%;
-  background-color: #F2513B;
+  background-color: #e95338;
 }
 
 .orange-hr{
-  background-color: #F2513B;
+  background-color: #e95338;
   height: 3px;
   max-width: 20%;
 }
@@ -244,11 +238,11 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     left: 0;
     height: 100px;
     width: 250px;
-    background-color: #F2513B;
+    background-color: #e95338;
   }
 
   .orange-text{
-    color: #F2513B;
+    color: #e95338;
     font-size: 5rem;
   }
 
@@ -265,6 +259,29 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
 
+  #typewriter-1{
+    left: 5vw;
+    top: 260vh;
+  }
+  
+  #typewriter-2{
+    margin-left: 90vw;
+    top: 360vh;
+  }
+
+  .typewriter-animate{
+    opacity: 1;
+    position: absolute;
+    transform: rotate(270deg);
+    transform-origin: 0% 0%; 
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .20em; /* Adjust as needed */
+    animation: typing 3.5s steps(80, end);
+  }
+
+
   #dish-img{
     max-height: 18rem;
     box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.75);
@@ -276,11 +293,11 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     left: 0;
     height: 100px;
     width: 250px;
-    background-color: #F2513B;
+    background-color: #e95338;
   }
 
   .orange-text{
-    color: #F2513B;
+    color: #e95338;
     font-size: 5rem;
   }
 
@@ -295,7 +312,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   }
 
   .upper-border{
-    border-top: 3px solid #F2513B;
+    border-top: 3px solid #e95338;
   }
   
   .telephones{
@@ -304,7 +321,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
   .message{
     text-align:center;
-    color:  #F2513B;
+    color:  #e95338;
   }
 }
 
@@ -314,6 +331,29 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
+
+  #typewriter-1{
+    left: 5vw;
+    top: 260vh;
+  }
+  
+  #typewriter-2{
+    margin-left: 90vw;
+    top: 360vh;
+  }
+
+  .typewriter-animate{
+    opacity: 1;
+    position: absolute;
+    transform: rotate(270deg);
+    transform-origin: 0% 0%; 
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .20em; /* Adjust as needed */
+    animation: typing 3.5s steps(80, end);
+  }
+
 
   #dish-img{
     max-height: 15rem;
@@ -327,7 +367,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   }
 
   .orange-text{
-    color: #F2513B;
+    color: #e95338;
     font-size: 5rem;
   }
 
@@ -343,9 +383,31 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  #typewriter-1{
+    left: 5vw;
+    top: 260vh;
+  }
+  
+  #typewriter-2{
+    margin-left: 90vw;
+    top: 360vh;
+  }
+
+  .typewriter-animate{
+    opacity: 1;
+    position: absolute;
+    transform: rotate(270deg);
+    transform-origin: 0% 0%; 
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .20em; /* Adjust as needed */
+    animation: typing 3.5s steps(80, end);
+  }
   
   .orange-text{
-    color: #F2513B;
+    color: #e95338;
     font-size: 5rem;
   }
 
@@ -372,10 +434,17 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  
 
+  #typewriter-1{
+    display: none;
+  }
+  
+  #typewriter-2{
+    display: none;
+  }
+  
   .orange-text{
-    color: #F2513B;
+    color: #e95338;
     font-size: 3rem;
   }
 
@@ -403,8 +472,16 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
 @media (min-width: 320px) and (max-width: 480px) {
 
+  #typewriter-1{
+    display: none;
+  }
+  
+  #typewriter-2{
+    display: none;
+  }
+
   .orange-text{
-    color: #F2513B;
+    color: #e95338;
     font-size: 1rem;
   }
 
