@@ -128,7 +128,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 }
 
 #el-laberinto{
-  height: 85vh;
+  min-height: 85vh;
 }
 
 #laberinto-text-col{
@@ -140,6 +140,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     object-fit: initial;
     width: 350px;
     height: 400px;
+    margin-bottom: 3rem;
 }
 
 .gallery {
