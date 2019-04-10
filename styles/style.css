@@ -99,15 +99,15 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   max-width: 30vw;
   position: absolute;
   left: 35vw;
-  top: 10%;
+  top: 8.5%;
   z-index: 100;
 }
 
 .a-maze{
-  max-width: 8.5vw;
+  max-width: 9vw;
   position: fixed;
-  left: 44.5vw;
-  top: 10%;
+  left: 44.2vw;
+  top: 8.5%;
   z-index: 100;
 }
 
