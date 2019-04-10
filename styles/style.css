@@ -183,7 +183,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
 .img-overlay {
   position: absolute;
-  z-index: 100;
+  z-index: 90;
   left: 50%;
   top: 50%;
   width: 50%;
