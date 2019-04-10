@@ -29,6 +29,10 @@ section.full-height {
   to { width: 100% }
 }
 
+#logo-maze{
+  max-width: 30vw;
+}
+
 .fade-icon-element{
   animation: fade-icon-down 1s;
 }
@@ -87,7 +91,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 }
 
 #navbar{
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 40px;
@@ -108,14 +112,10 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 }
 
 #taste{
+  padding-top: 20px;
   padding-left: 65px;
-  height: 50vh;
 }
 
-#laberinto-text{
-  margin-top: 5%;
-  padding-right: 50px;
-}
 
 #laberinto-text:after{
   content: '';
@@ -136,12 +136,11 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   padding-left: 0;
 }
 
-#laberinto-video{
-    object-fit: initial;
-    width: 350px;
-    height: 400px;
-    margin-bottom: 3rem;
+#laberinto-video-col{
+  width: 100%;
+  text-align: center;
 }
+
 
 .gallery {
   height: 30rem;
@@ -247,8 +246,12 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     font-size: 5rem;
   }
 
-  #laberinto-text{
-    margin-left: 40px;
+  .welcome-text{
+    font-size: 3rem;
+  }
+
+  #laberinto-video{
+    width: 80%;
   }
   
 }
@@ -284,10 +287,10 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
 
   #dish-img{
-    max-height: 18rem;
+    max-height: 26rem;
     box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.75);
-    background-color: rgb(244, 244, 241);
-    margin-top: -220px;
+    background-color: rgb(181, 187, 192);
+    margin-top: -330px;
   }
   
   .orange_square{
@@ -299,17 +302,21 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
   .orange-text{
     color: #e95338;
-    font-size: 5rem;
+    font-size: 3rem;
+    line-height: 50px;
+    letter-spacing: 5px;
+  }
+
+  .welcome-text{
+    font-size: 1.5rem;
+    width: 300px;
+    margin-bottom: 125px;
   }
 
   .text-square{
     margin-left: 90%;
     margin-top: 10%;
     max-width: 1%;
-  }
-
-  #laberinto-text{
-    margin-left: 40px;
   }
 
   .upper-border{
@@ -323,6 +330,15 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   .message{
     text-align:center;
     color:  #e95338;
+  }
+
+  #laberinto-text{
+    margin: auto;
+    padding: 5%;
+  }
+
+  #laberinto-video{
+    width: 80%;
   }
 }
 
@@ -359,7 +375,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   #dish-img{
     max-height: 15rem;
     box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.75);
-    background-color: rgb(244, 244, 241);
+    background-color: rgb(181, 187, 192);
     margin-top: -110px;
   }
 
@@ -369,11 +385,22 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
   .orange-text{
     color: #e95338;
-    font-size: 5rem;
+    font-size: 4rem;
+    letter-spacing: 2px;
+  }
+
+  .welcome-text{
+    font-size: 2rem;
+    margin-bottom: 140px;
   }
 
   #laberinto-text{
-    margin-left: 40px;
+    margin: auto;
+    padding: 5%;
+  }
+
+  #laberinto-video{
+    width: 80%;
   }
 
 }
@@ -410,12 +437,18 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   .orange-text{
     color: #e95338;
     font-size: 5rem;
+    letter-spacing: 2px;
+  }
+
+  .welcome-text{
+    font-size: 2.5rem;
+    margin-bottom: 130px;
   }
 
   #dish-img{
     max-height: 15rem;
     box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.75);
-    background-color: rgb(244, 244, 241);
+    background-color: rgb(181, 187, 192);
     margin-top: -110px;
   }
 
@@ -424,7 +457,12 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   }
 
   #laberinto-text{
-    padding: 30px;
+    margin: auto;
+    padding: 5%;
+  }
+
+  #laberinto-video{
+    width: 80%;
   }
   
 }
@@ -449,10 +487,15 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     font-size: 3rem;
   }
 
+  .welcome-text{
+    font-size: 1.5rem;
+    margin-bottom: 125px;
+  }
+
   #dish-img{
     max-height: 10rem;
     box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.75);
-    background-color: rgb(244, 244, 241);
+    background-color: rgb(181, 187, 192);
     margin-top: -90px;
   }
 
@@ -461,7 +504,12 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   }
 
   #laberinto-text{
-    margin-left: 40px;
+    margin: auto;
+    padding: 5%;
+  }
+
+  #laberinto-video{
+    width: 100%;
   }
   
 }
@@ -483,13 +531,18 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
   .orange-text{
     color: #e95338;
+    font-size: 2rem;
+    line-height: 20px;
+  }
+
+  .welcome-text{
     font-size: 1rem;
   }
 
   #dish-img{
     max-height: 8rem;
     box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.75);
-    background-color: rgb(244, 244, 241);
+    background-color: rgb(197, 355, 205);
     margin-top: -30px;
   }
 
@@ -498,7 +551,12 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   }
 
   #laberinto-text{
-    margin-left: 5%;
+    margin: auto;
+    padding: 5%;
+  }
+
+  #laberinto-video{
+    width: 100%;
   }
   
 }
