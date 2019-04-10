@@ -54,3 +54,14 @@ var animateHTML = function() {
 }
 
 animateHTML().init();
+
+$(document).ready(function(){
+  $('#carousel-1').carousel({
+    interval: 6000
+  })
+  $('#carousel-1').carousel('cycle')
+})
+
+$('#carousel-1').on('slide.bs.carousel', function () {
+  $('#carousel-2').carousel('next');
+})
