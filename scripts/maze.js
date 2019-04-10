@@ -32,6 +32,20 @@ var animateHTML = function() {
         );
       }
     }
+
+    var scroll = $(window).scrollTop();
+
+    if(scroll > 540){
+      $('#logo-blue').addClass('img-hidden');
+      $('#logo-blue').removeClass('img-show');
+      $('#logo-orange').removeClass('img-hidden');
+      $('#logo-orange').addClass('img-show');
+    } else{
+      $('#logo-orange').addClass('img-hidden');
+      $('#logo-orange').removeClass('img-show');
+      $('#logo-blue').removeClass('img-hidden');
+      $('#logo-blue').addClass('img-show');
+    }
   }
 
   return {

@@ -29,9 +29,6 @@ section.full-height {
   to { width: 100% }
 }
 
-#logo-maze{
-  max-width: 30vw;
-}
 
 .fade-icon-element{
   animation: fade-icon-down 1s;
@@ -91,10 +88,36 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 }
 
 #navbar{
+  padding-top: 13vh;
   font-size: 1.7rem;
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 40px;
+}
+
+#logo-maze{
+  max-width: 30vw;
+  position: absolute;
+  left: 35vw;
+  top: 10%;
+  z-index: 100;
+}
+
+.a-maze{
+  max-width: 8.5vw;
+  position: fixed;
+  left: 44.5vw;
+  top: 10%;
+  z-index: 100;
+}
+
+.img-hidden{
+  opacity:0;   
+}
+
+.img-show{
+  opacity:1;
+  transition:opacity 0.5s linear;
 }
 
 .navbar-toggler-icon{
@@ -184,7 +207,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
 .img-overlay {
   position: absolute;
-  z-index: 100;
+  z-index: 90;
   left: 25%;
   top: 15vh;
   width: 50%;
@@ -226,6 +249,28 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 */
 
 @media (min-width: 1281px) {
+
+  #typewriter-1{
+    left: 5vw;
+    top: 300vh;
+  }
+  
+  #typewriter-2{
+    margin-left: 90vw;
+    top: 400vh;
+  }
+
+  .typewriter-animate{
+    opacity: 1;
+    position: absolute;
+    transform: rotate(270deg);
+    transform-origin: 0% 0%; 
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .20em; /* Adjust as needed */
+    animation: typing 3.5s steps(80, end);
+  }
 
   #dish-img{
     max-height: 20rem;
