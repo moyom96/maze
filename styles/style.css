@@ -265,12 +265,12 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
   #typewriter-1{
     left: 5vw;
-    top: 260vh;
+    top: 300vh;
   }
   
   #typewriter-2{
     margin-left: 90vw;
-    top: 360vh;
+    top: 400vh;
   }
 
   .typewriter-animate{
