@@ -478,7 +478,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
   #typewriter-1{
     left: 5vw;
-    top: 290vh;
+    top: 300vh;
     z-index: 100;
   }
 
@@ -487,12 +487,12 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     height: 15px;
     width: 5px;
     left: 5.7%;
-    top: 295vh;
+    top: 305vh;
   }
   
   #typewriter-2{
     left: 90vw;
-    top: 370vh;
+    top: 380vh;
     z-index: 100;
   }
 
@@ -501,7 +501,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     height: 15px;
     width: 5px;
     left: 91.9%;
-    top: 375vh;
+    top: 385vh;
   }
 
   #laberinto-video-col{
