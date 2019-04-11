@@ -415,13 +415,12 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 @media (min-width: 1025px) and (max-width: 1280px) {
 
   #laberinto-text{
-    margin: auto;
     padding: 12%;
     padding-left: 0;
-    padding-right: 16%;
-    font-size: 1.05rem;
+    padding-right: 10%;
+    font-size: 1.3rem;
     position: relative;
-    left: 120px;
+    left: 20%;
   }
 
   #typewriter-1{
