@@ -206,10 +206,6 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
 /* Gallery */
 
-#gallery {
-  padding-top: 25vh;
-}
-
 .carousel-img {
   height: 51vh;
   width: 50vh;
