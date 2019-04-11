@@ -327,7 +327,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
   #dish-img{
     max-height: 20rem;
-    box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.5);
     background-color: rgb(202, 203, 198);
   }
 
@@ -342,7 +342,6 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
   .text-square{
     margin-left: 90%;
-    margin-top: 10%;
     max-width: 1%;
     font-family: 'SlabTallX';
   }
@@ -469,14 +468,14 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
   #dish-img{
     max-height: 26rem;
-    box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.5);
     background-color: rgb(181, 187, 192);
     margin-top: -330px;
   }
   
   .orange_square{
     left: 0;
-    height: 150px;
+    height: 200px;
     width: 330px;
     background-color: #e95338;
     display: flex;
@@ -559,9 +558,9 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   }
 
   .d-image-2{
-    max-height: 11rem;
-    margin-top: -10vh;
-    margin-left: 32%;
+    max-height: 17rem;
+    margin-top: -17vh;
+    margin-left: 18%;
     margin-bottom: 5%;
     -webkit-filter: drop-shadow(5px 5px 5px #7070741a);
     filter: drop-shadow(7px 15px 5px #222);
@@ -617,7 +616,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
   #dish-img{
     max-height: 15rem;
-    box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.5);
     background-color: rgb(181, 187, 192);
     margin-top: -110px;
   }
@@ -728,7 +727,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
   #dish-img{
     max-height: 15rem;
-    box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.5);
     background-color: rgb(181, 187, 192);
     margin-top: -110px;
   }
@@ -807,7 +806,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
   #dish-img{
     max-height: 10rem;
-    box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.5);
     background-color: rgb(181, 187, 192);
     margin-top: -90px;
   }
@@ -906,7 +905,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
   #dish-img{
     max-height: 8rem;
-    box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.5);
     background-color: rgb(197, 355, 205);
     margin-top: -30px;
   }
