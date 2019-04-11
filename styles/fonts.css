@@ -1,13 +1,11 @@
 @font-face {
   font-family: 'SlabTallX';
   src: url("/fonts/SlabTallX.ttf") format("truetype");
-  font-style: normal;
 }
 
 @font-face {
   font-family: 'SlabTallXMedium';
   src: url("/fonts/SlabTallX-Medium.ttf") format("truetype");
-  font-style: normal;
 }
 
 @font-face {
