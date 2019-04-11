@@ -232,7 +232,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 .orange-hr{
   background-color: #e95338;
   height: 3px;
-  max-width: 20%;
+  max-width: 30%;
 }
 
 .center{
@@ -241,10 +241,12 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
 .first-service{
   background-color: #354253;
+  margin-bottom: 15%;
 }
 
 .second-service{
   background-color: #F0DCC2;
+  margin-bottom: 15%;
 }
 
 .no-border{
@@ -320,6 +322,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     margin-left: 90%;
     margin-top: 10%;
     max-width: 1%;
+    font-family: 'SlabTallX';
   }
 
   .upper-border{
@@ -437,10 +440,11 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   
   .orange_square{
     left: 0;
-    height: 180px;
-    width: 330px;
+    height: 150px;
+    width: 270px;
     background-color: #e95338;
     display: flex;
+    margin-bottom: 5%;
   }
 
   .el-text{
@@ -470,9 +474,10 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   }
 
   .text-square{
-    margin-left: 90%;
-    margin-top: 10%;
-    max-width: 1%;
+    margin-left: 100%;
+    margin-top: 18%;
+    font-family: 'SlabTallX';
+    font-size: 40pt;
   }
 
   .upper-border{
@@ -480,12 +485,16 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   }
   
   .telephones{
-    margin-left: 10%;
+    margin-left: 20%;
+    font-family: 'SlabTallX';
+    font-size: 16pt;
   }
 
   .message{
     text-align:center;
     color:  #e95338;
+    font-family: 'SlabTallX';
+    font-size: 14pt;
   }
 
   #laberinto-video{
@@ -505,6 +514,26 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   .prev-col{
     position: relative;
     left: 2%;
+  }
+
+  .d-image{
+    height: 21vh;
+    width: 24vw;
+    margin-top: -6vh;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(-10px 8px 5px #222);
+  }
+
+  .d-image-2{
+    height: 25vh;
+    width: 25vh;
+    margin-top: -10vh;
+    margin-left: 32%;
+    margin-bottom: 5%;
+    -webkit-filter: drop-shadow(5px 5px 5px #7070741a);
+    filter: drop-shadow(7px 15px 5px #222);
   }
 }
 
