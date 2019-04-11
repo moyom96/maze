@@ -173,8 +173,16 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 }
 
 #laberinto-video-col{
-  width: 100%;
+  height: 70vh;
+  max-width: 60vw;
   text-align: center;
+  overflow: hidden;
+}
+
+#laberinto-video{
+  height: 100%;
+  width: auto;
+  transform: translateX(-50%);
 }
 
 /* Videos */
@@ -359,14 +367,6 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     margin: auto;
     padding: 12%;
   }
-
-  #laberinto-video{
-    width: 80%;
-  }
-
-  #laberinto-video{
-    width: 80%;
-  }
   
   #typewriter-1{
     left: 5vw;
@@ -529,7 +529,6 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   }
 
   #laberinto-video{
-    width: 80%;
     padding-top: 25%;
   }
 
@@ -643,7 +642,6 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   }
 
   #laberinto-video{
-    width: 80%;
     padding-top: 40%;
   }
 
@@ -742,10 +740,6 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     padding-left: 10%;
   }
 
-  #laberinto-video{
-    width: 80%;
-  }
-
   .d-image{
     max-height: 7rem;
     margin-top: -6vh;
@@ -818,10 +812,6 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   #laberinto-text{
     margin: auto;
     padding: 5%;
-  }
-
-  #laberinto-video{
-    width: 100%;
   }
 
   .orange_square{
@@ -917,10 +907,6 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   #laberinto-text{
     margin: auto;
     padding: 5%;
-  }
-
-  #laberinto-video{
-    width: 100%;
   }
   
   #gallery {
