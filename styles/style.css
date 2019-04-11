@@ -168,13 +168,6 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   padding-left: 0;
 }
 
-#laberinto-video-col{
-  height: 70vh;
-  max-width: 60vw;
-  text-align: center;
-  overflow: hidden;
-}
-
 #laberinto-video{
   height: 100%;
   width: auto;
@@ -455,6 +448,15 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     filter: drop-shadow(7px 15px 5px #222);
   }
 
+  #laberinto-video-col{
+    height: 100vh;
+    max-width: 70vw;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    top: -4.5rem;
+  }
+
 }
 
 /* 
@@ -500,6 +502,15 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     width: 5px;
     left: 91.9%;
     top: 375vh;
+  }
+
+  #laberinto-video-col{
+    height: 100vh;
+    max-width: 70vw;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    top: -4.5rem;
   }
 
   .typewriter-animate{
