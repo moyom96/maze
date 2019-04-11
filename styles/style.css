@@ -211,7 +211,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 }
 
 .carousel-img {
-  height: 50vh;
+  height: 51vh;
   width: 50vh;
   object-fit: cover;
 }
@@ -356,7 +356,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   
   #typewriter-2{
     margin-left: 90vw;
-    top: 400vh;
+    top: 350vh;
   }
 
   .typewriter-animate{
@@ -372,11 +372,13 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   }
 
   #car-col-1{
-    padding-left: 5%;
+    position: relative;
+    left: 6%;
   }
   
   #car-col-2{
-    padding-right: 5%;
+    position: relative;
+    right: 6%;
   }
 
   .prev-col{
@@ -410,7 +412,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   
   #typewriter-2{
     margin-left: 90vw;
-    top: 380vh;
+    top: 360vh;
   }
 
   .typewriter-animate{
@@ -811,4 +813,11 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     margin-top: 10px;
   }
 
+  #car-col-1{
+    width: 100%;
+  }
+  
+  #car-col-2{
+    width: 100%;
+  }
 }
