@@ -23,6 +23,10 @@ section.full-height {
   opacity: 0;
 }
 
+.el-text, .offset-text{
+  letter-spacing: 8px;
+}
+
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
@@ -221,7 +225,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 }
 
 .orange_square{
-  width: 100%;
+  width: 330px;
   background-color: #e95338;
 }
 
@@ -299,7 +303,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     position: absolute;
     left: 0;
     height: 500px;
-    width: 250px;
+    width: 300px;
     background-color: #e95338;
   }
 
@@ -367,6 +371,19 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     animation: typing 3.5s steps(80, end);
   }
 
+  #car-col-1{
+    padding-left: 5%;
+  }
+  
+  #car-col-2{
+    padding-right: 5%;
+  }
+
+  .prev-col{
+    position: relative;
+    left: 2%;
+  }
+
 }
 
 /* 
@@ -376,17 +393,14 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
 
-  .el-text{
-    font-size: 3rem;
+  #laberinto-text{
+    margin: auto;
+    padding: 12%;
+    padding-left: 0;
+    padding-right: 16%;
+    font-size: 1.05rem;
     position: relative;
-    left: -47px;
-  }
-
-  .offset-text{
-    font-size: 3rem;
-    position: relative;
-    top: -58px;
-    left: 25px;
+    left: 120px;
   }
 
   #typewriter-1{
@@ -422,9 +436,22 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   .orange_square{
     left: 0;
     height: 180px;
-    width: 250px;
+    width: 330px;
     background-color: #e95338;
     display: flex;
+  }
+
+  .el-text{
+    font-size: 3rem;
+    position: relative;
+    left: -47px;
+  }
+
+  .offset-text{
+    font-size: 3rem;
+    position: relative;
+    top: -58px;
+    left: 32px;
   }
 
   .orange-text{
@@ -459,15 +486,23 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     color:  #e95338;
   }
 
-  #laberinto-text{
-    margin: auto;
-    padding: 12%;
-    padding-right: 16%;
-    font-size: 1.05rem;
-  }
-
   #laberinto-video{
     width: 80%;
+  }
+
+  #car-col-1{
+    position: relative;
+    left: 6%;
+  }
+  
+  #car-col-2{
+    position: relative;
+    right: 6%;
+  }
+
+  .prev-col{
+    position: relative;
+    left: 2%;
   }
 }
 
