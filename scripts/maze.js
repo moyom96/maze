@@ -7,6 +7,14 @@ function nextImg(){
   $('.gallery-carousel').carousel('next');
 }
 
+$(document).on('click', 'a[href^="#"]', function (event) {
+  event.preventDefault();
+
+  $('html, body').animate({
+      scrollTop: $($.attr(this, 'href')).offset().top
+  }, 500);
+});
+
 var animateHTML = function() {
   function init() {
     typewriters = document.querySelectorAll('.hidden-typewriter');
