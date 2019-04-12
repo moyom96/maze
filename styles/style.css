@@ -573,14 +573,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     margin-top: -330px;
   }
   
-  .orange_square{
-    left: 0;
-    height: 200px;
-    width: 330px;
-    background-color: #e95338;
-    display: flex;
-    margin-bottom: 5%;
-  }
+  
 
   .el-text{
     font-size: 3rem;
@@ -595,17 +588,45 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     left: -1px;
   }
 
+  .welcome-text{
+    font-size: 1.5rem;
+    width: 300px;
+    margin-bottom: 125px;
+  }
+
+  #laberinto-video{
+    padding-top: 25%;
+  }
+
+  #car-col-1{
+    position: relative;
+    left: 6%;
+  }
+  
+  #car-col-2{
+    position: relative;
+    right: 6%;
+  }
+
+  .prev-col{
+    position: relative;
+    left: 2%;
+  }
+
+  .orange_square{
+    left: 0;
+    height: 200px;
+    width: 330px;
+    background-color: #e95338;
+    display: flex;
+    margin-bottom: 5%;
+  }
+
   .orange-text{
     color: #e95338;
     font-size: 3rem;
     line-height: 50px;
     letter-spacing: 5px;
-  }
-
-  .welcome-text{
-    font-size: 1.5rem;
-    width: 300px;
-    margin-bottom: 125px;
   }
 
   .text-square{
@@ -626,25 +647,6 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     color:  #e95338;
     font-family: 'SlabTallX';
     font-size: 14pt;
-  }
-
-  #laberinto-video{
-    padding-top: 25%;
-  }
-
-  #car-col-1{
-    position: relative;
-    left: 6%;
-  }
-  
-  #car-col-2{
-    position: relative;
-    right: 6%;
-  }
-
-  .prev-col{
-    position: relative;
-    left: 2%;
   }
 
   .d-image{
@@ -740,10 +742,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     animation: typing 3.5s steps(80, end);
   }
 
-  .orange_square{
-    left: 0;
-    background-color: #e95338;
-  }
+  
 
   #dish-img{
     max-height: 15rem;
@@ -756,11 +755,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     min-height: 270px;
   }
 
-  .orange-text{
-    color: #e95338;
-    font-size: 4rem;
-    letter-spacing: 2px;
-  }
+  
 
   .welcome-text{
     font-size: 2rem;
@@ -777,26 +772,89 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     padding-top: 40%;
   }
 
+  .amazing-food{
+    left: 42%;
+  }
+
+  .orange_square{
+    left: 0;
+    background-color: #e95338;
+  }
+
+  .orange-text{
+    color: #e95338;
+    font-size: 4rem;
+    letter-spacing: 2px;
+  }
+
+  .text-square{
+    margin-left: 100%;
+    margin-top: 2%;
+    font-family: 'SlabTallX';
+    font-size: 40pt;
+  }
+  
+  .telephones{
+    font-family: 'SlabTallX';
+    font-size: 16pt;
+  }
+
+  .message{
+    text-align:center;
+    color:  #e95338;
+    font-family: 'SlabTallX';
+    font-size: 14pt;
+  }
+
+  .offset-md-4 .space{
+    margin-left: 18%;
+  }
   .d-image{
     max-height: 5rem;
-    margin-top: -6vh;
-    margin-left: 15%;
+    margin-top: -2vh;
+    margin-left: 20%;
     margin-bottom: 5%;
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter: drop-shadow(-10px 8px 5px #222);
   }
 
   .d-image-2{
-    max-height: 5rem;
-    margin-top: -10vh;
+    max-height: 6rem;
+    margin-top: -3vh;
     margin-left: 32%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     -webkit-filter: drop-shadow(5px 5px 5px #7070741a);
     filter: drop-shadow(7px 15px 5px #222);
   }
 
-  .amazing-food{
-    left: 42%;
+  .sub-title{
+    text-align: center;
+    color: #AEA495;
+    font-family: 'AnderfontFree ';
+    font-size: 64pt;
+    margin-top: -30%;
+    line-height: 0.5%;
+  }
+
+  .sub-title-2{
+    text-align: center;
+    color: #AEA495;
+    font-family: 'AnderfontFree ';
+    font-size: 64pt;
+    margin-left: 10%;
+    margin-top: -30%;
+    line-height: 1%;
+  }
+  .tenedor{
+    max-width: 25%;
+    max-height: 50%;
+    margin-left: 35%;
+  }
+  .cuchara{
+    max-width: 25%;
+    max-height: 50%;
+    margin-left: 35%;
+
   }
 
 }
@@ -1018,16 +1076,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     display: none;
   }
 
-  .orange-text{
-    color: #e95338;
-    font-size: 2rem;
-    line-height: 20px;
-  }
-
-  .orange_square{
-    left: 0;
-    background-color: #e95338;
-  }
+  
 
   .welcome-text{
     font-size: 1rem;
@@ -1065,24 +1114,6 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     width: 100%;
   }
 
-  .d-image{
-    max-height: 7rem;
-    margin-top: -6vh;
-    margin-left: 30%;
-    margin-bottom: 5%;
-    -webkit-filter: drop-shadow(5px 5px 5px #222);
-    filter: drop-shadow(-10px 8px 5px #222);
-  }
-
-  .d-image-2{
-    max-height: 7rem;
-    margin-top: -10vh;
-    margin-left: 40%;
-    margin-bottom: 5%;
-    -webkit-filter: drop-shadow(5px 5px 5px #7070741a);
-    filter: drop-shadow(7px 15px 5px #222);
-  }
-
   .gallery-line {
     display: none;
   }
@@ -1094,4 +1125,92 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   .amazing-food{
     display: none;
   }
+
+  .orange-text{
+    color: #e95338;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    line-height: 20px;
+  }
+
+  .orange_square{
+    left: 0;
+    background-color: #e95338;
+  }
+
+  .text-square{
+    margin-left: 15%;
+    margin-top: 2%;
+    font-family: 'SlabTallX';
+    font-size: 40pt;
+  }
+  
+  .telephones{
+    font-family: 'SlabTallX';
+    font-size: 16pt;
+    margin-left: 30%;
+  }
+
+  .message{
+    text-align:center;
+    color:  #e95338;
+    font-family: 'SlabTallX';
+    font-size: 14pt;
+  }
+
+  .offset-md-4 .space{
+    margin-left: 18%;
+  }
+  .d-image{
+    max-height: 8rem;
+    margin-top: -3vh;
+    margin-left: 23%;
+    margin-bottom: 2%;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(-10px 8px 5px #222);
+  }
+
+  .d-image-2{
+    max-height: 10rem;
+    margin-top: -5vh;
+    margin-left: 30%;
+    -webkit-filter: drop-shadow(5px 5px 5px #7070741a);
+    filter: drop-shadow(7px 15px 5px rgba(0,0,0,0.5));
+  }
+  .cena-mob{
+    margin-left: -10%;
+  }
+  .sub-title{
+    text-align: center;
+    color: #AEA495;
+    font-family: 'AnderfontFree ';
+    font-size: 64pt;
+    margin-top: -30%;
+    margin-left: 18%;
+    line-height: 0.5%;
+  }
+
+  
+
+  .sub-title-2{
+    text-align: center;
+    color: #AEA495;
+    font-family: 'AnderfontFree ';
+    font-size: 64pt;
+    margin-left: 10%;
+    margin-top: -30%;
+    line-height: 1%;
+  }
+  .tenedor{
+    max-width: 25%;
+    max-height: 50%;
+    margin-left: 35%;
+  }
+  .cuchara{
+    max-width: 25%;
+    max-height: 50%;
+    margin-left: 35%;
+
+  }
+
 }
