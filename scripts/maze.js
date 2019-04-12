@@ -17,6 +17,7 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 
 var animateHTML = function() {
   function init() {
+    handwritings = document.querySelectorAll('.handwriting');
     typewriters = document.querySelectorAll('.hidden-typewriter');
     windowHeight = window.innerHeight;
     addEventHandlers();
@@ -38,6 +39,13 @@ var animateHTML = function() {
           'hidden-typewriter',
           'typewriter-animate'
         );
+      }
+    }
+
+    for (var i = 0; i < handwritings.length; i++){
+      var positionFromTop = handwritings[i].getBoundingClientRect().top;
+      if (positionFromTop - windowHeight + 750 <= 0) {
+          handwritings[i].classList = ['pen'];
       }
     }
 
