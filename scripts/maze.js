@@ -44,7 +44,7 @@ var animateHTML = function() {
 
     for (var i = 0; i < handwritings.length; i++){
       var positionFromTop = handwritings[i].getBoundingClientRect().top;
-      if (positionFromTop - windowHeight + 750 <= 0) {
+      if (positionFromTop - windowHeight + 400 <= 0) {
           handwritings[i].classList = ['pen'];
       }
     }

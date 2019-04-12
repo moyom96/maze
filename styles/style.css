@@ -274,7 +274,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 }
 
 .first-service{
-  background-color: #354253;
+  background-color: #364056;
   margin-bottom: 15%;
 }
 
@@ -305,9 +305,9 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   transform: rotate(270deg);
   transform-origin: 0% 0%;
   position: absolute;
-  left: 45%;
-  top: 75vh;
-  width: 70vh;
+  left: 43%;
+  top: 95%;
+  width: 55%;
   z-index: 90;
 }
 
@@ -357,7 +357,6 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   letter-spacing: 10px;
   font-size: 1.05rem;
   color: #e8dcd0;
-
 }
 
 /* Services */
@@ -575,6 +574,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     overflow: hidden;
     position: relative;
     top: -4.5rem;
+    left: 10rem;
   }
 
 }
@@ -599,6 +599,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     left: 5vw;
     top: 300vh;
     z-index: 100;
+    font-weight: 100;
   }
 
   #typewriter-1-rect{
@@ -630,6 +631,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     overflow: hidden;
     position: relative;
     top: -4.5rem;
+    left: 12rem;
   }
 
   .typewriter-animate{
@@ -751,6 +753,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   .sub-title-2{
     margin-left: 10%;
   }
+
 }
 
 /* 
@@ -823,10 +826,8 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   }
 
   #laberinto-video-col{
-    height: 80vh;
-    max-width: 70vw;
+    height: 70vh;
     text-align: center;
-
   }
 
   .amazing-food{
@@ -992,12 +993,15 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   }
 
   #laberinto-video-col{
-    height: 80vh;
-    max-width: 70vw;
+    height: 60vh;
     text-align: center;
-    overflow: hidden;
     position: relative;
-    top: -4.5rem;
+    top: 2rem;
+    left: 10rem;
+  }
+
+  #laberinto-video{
+   margin-left: 50%;
   }
   
 }
@@ -1096,14 +1100,32 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   }
 
   #laberinto-video-col{
-    width: 60vw;
+    width: 100vw;
     height: 50vh;
     text-align: center;
     position: relative;
   }
-  
+
+  #laberinto-video{
+    transform: none;
+  }
+
   .a-la-medida{
     display: none;
+  }
+
+  .cuchara{
+    margin-left: -10%;
+    max-width: 10%;
+    max-height: 50%;
+    margin-top: -80%;
+  }
+
+  .tenedor{
+    margin-left: -10%;
+    max-width: 10%;
+    max-height: 50%;
+    margin-top: -62%;
   }
   
 }
@@ -1154,6 +1176,11 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     margin: auto;
     padding: 5%;
   }
+
+  #laberinto-video{
+    transform: none;
+    width: 90vw;
+  }
   
   #gallery {
     padding-top: 0;
@@ -1189,7 +1216,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
   .orange-text{
     color: #e95338;
-    font-size: 4rem;
+    font-size: 2rem;
     letter-spacing: 2px;
     line-height: 20px;
   }
@@ -1255,9 +1282,9 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   .tenedor{
     margin-left: 35%;
   }
+
   .cuchara{
     margin-left: 35%;
-
   }
 
 }
