@@ -19,10 +19,6 @@ section.full-height {
   }
 }
 
-.hidden-typewriter {
-  opacity: 0;
-}
-
 .el-text, .offset-text{
   letter-spacing: 8px;
 }
@@ -173,13 +169,6 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   padding-left: 0;
 }
 
-#laberinto-video-col{
-  height: 70vh;
-  max-width: 60vw;
-  text-align: center;
-  overflow: hidden;
-}
-
 #laberinto-video{
   height: 100%;
   width: auto;
@@ -242,7 +231,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 }
 
 .carousel-img {
-  height: 51vh;
+  height: 55vh;
   width: 50vh;
   object-fit: cover;
 }
@@ -337,6 +326,21 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   }
 }
 
+.typewriter-rect{
+  position: absolute;
+}
+
+.hidden-typewriter {
+  opacity: 0;
+}
+
+.typewriter-text{
+  letter-spacing: 10px;
+  font-size: 1.05rem;
+  color: #e8dcd0;
+
+}
+
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -348,6 +352,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     font-size: 3rem;
     position: relative;
     left: -47px;
+    color: #e8dcd0;
   }
 
   .offset-text{
@@ -355,6 +360,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     position: relative;
     top: -58px;
     left: 25px;
+    color: #e8dcd0;
   }
 
   .typewriter-animate{
@@ -407,11 +413,29 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   #typewriter-1{
     left: 5vw;
     top: 300vh;
+    z-index: 100;
+  }
+
+  #typewriter-1-rect{
+    background-color: #e95338;
+    height: 15px;
+    width: 5px;
+    left: 5.7%;
+    top: 305vh;
   }
   
   #typewriter-2{
     margin-left: 90vw;
-    top: 350vh;
+    top: 370vh;
+    z-index: 100;
+  }
+
+  #typewriter-2-rect{
+    background-color: #e95338;
+    height: 15px;
+    width: 5px;
+    left: 91.9%;
+    top: 375vh;
   }
 
   .typewriter-animate{
@@ -465,6 +489,15 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     width: 80vh;
   }
 
+  #laberinto-video-col{
+    height: 100vh;
+    max-width: 70vw;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    top: -4.5rem;
+  }
+
 }
 
 /* 
@@ -481,16 +514,44 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     font-size: 1.3rem;
     position: relative;
     left: 20%;
+    color: 
   }
 
   #typewriter-1{
     left: 5vw;
-    top: 280vh;
+    top: 300vh;
+    z-index: 100;
+  }
+
+  #typewriter-1-rect{
+    background-color: #e95338;
+    height: 15px;
+    width: 5px;
+    left: 5.7%;
+    top: 305vh;
   }
   
   #typewriter-2{
-    margin-left: 90vw;
-    top: 360vh;
+    left: 90vw;
+    top: 380vh;
+    z-index: 100;
+  }
+
+  #typewriter-2-rect{
+    background-color: #e95338;
+    height: 15px;
+    width: 5px;
+    left: 91.9%;
+    top: 385vh;
+  }
+
+  #laberinto-video-col{
+    height: 100vh;
+    max-width: 70vw;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    top: -4.5rem;
   }
 
   .typewriter-animate{

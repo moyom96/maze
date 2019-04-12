@@ -33,7 +33,7 @@ var animateHTML = function() {
 
     for (var i = 0; i < typewriters.length; i++) {
       var positionFromTop = typewriters[i].getBoundingClientRect().top;
-      if (positionFromTop - windowHeight <= 0) {
+      if (positionFromTop - windowHeight - 100 <= 0) {
           typewriters[i].className = typewriters[i].className.replace(
           'hidden-typewriter',
           'typewriter-animate'
