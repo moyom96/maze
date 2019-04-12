@@ -22,7 +22,7 @@
 
 @font-face {
   font-family: 'AnderfontFree ';
-  src: url("/fonts/AnderfontFree.otf") format("opentype");
+  src: url("../fonts/AnderfontFree.otf") format("opentype");
   font-style: normal;
 }
 
