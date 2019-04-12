@@ -742,8 +742,6 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     animation: typing 3.5s steps(80, end);
   }
 
-  
-
   #dish-img{
     max-height: 15rem;
     box-shadow: 0px 0px 30px 7px rgba(0,0,0,0.5);
@@ -754,8 +752,6 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   #taste{
     min-height: 270px;
   }
-
-  
 
   .welcome-text{
     font-size: 2rem;
@@ -770,6 +766,14 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
   #laberinto-video{
     padding-top: 40%;
+    width: 100%;
+  }
+
+  #laberinto-video-col{
+    height: 80vh;
+    max-width: 70vw;
+    text-align: center;
+
   }
 
   .amazing-food{
@@ -951,6 +955,15 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     -webkit-filter: drop-shadow(5px 5px 5px #7070741a);
     filter: drop-shadow(7px 15px 5px #222);
   }
+
+  #laberinto-video-col{
+    height: 80vh;
+    max-width: 70vw;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    top: -4.5rem;
+  }
   
 }
 
@@ -1045,6 +1058,13 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
   .amazing-food{
     display: none;
+  }
+
+  #laberinto-video-col{
+    width: 60vw;
+    height: 50vh;
+    text-align: center;
+    position: relative;
   }
   
 }
