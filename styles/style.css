@@ -161,6 +161,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 #el-laberinto{
   min-height: 85vh;
   color: #e8dcd0;
+  position: relative;
 }
 
 #laberinto-text-col{
@@ -290,6 +291,41 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   border-top: 3px solid #e95338;
 }
 
+/* Handwriting animation */
+
+.amazing-food {
+  transform: rotate(270deg);
+  transform-origin: 0% 0%;
+  position: absolute;
+  left: 45%;
+  top: 75vh;
+  width: 70vh;
+  z-index: 90;
+}
+
+.pen {
+  fill: none;
+  stroke: #364056;
+  stroke-width: 13;
+  stroke-linecap: round;
+
+  stroke-dasharray: 5500 5500;
+  stroke-dashoffset: 5500;
+  animation-duration: 4s;
+  animation-name: draw;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes draw {
+  from {
+    stroke-dashoffset: 5500;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
 .typewriter-rect{
   position: absolute;
 }
@@ -302,6 +338,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   letter-spacing: 10px;
   font-size: 1.05rem;
   color: #e8dcd0;
+
 }
 
 /* 
@@ -446,6 +483,10 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     margin-bottom: 5%;
     -webkit-filter: drop-shadow(5px 5px 5px #7070741a);
     filter: drop-shadow(7px 15px 5px #222);
+  }
+
+  .amazing-food{
+    width: 80vh;
   }
 
   #laberinto-video-col{
@@ -754,6 +795,10 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     filter: drop-shadow(7px 15px 5px #222);
   }
 
+  .amazing-food{
+    left: 42%;
+  }
+
 }
 
 /* 
@@ -939,6 +984,10 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   .gallery-line {
     display: none;
   }
+
+  .amazing-food{
+    display: none;
+  }
   
 }
 
@@ -1040,5 +1089,9 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
   .img-overlay {
     width: 50%;
+  }
+
+  .amazing-food{
+    display: none;
   }
 }
