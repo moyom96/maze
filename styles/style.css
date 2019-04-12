@@ -293,6 +293,14 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
 /* Handwriting animation */
 
+#services {
+  position: relative;
+}
+
+.handwriting {
+  opacity: 0;
+}
+
 .amazing-food {
   transform: rotate(270deg);
   transform-origin: 0% 0%;
@@ -303,10 +311,21 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   z-index: 90;
 }
 
+.a-la-medida {
+  transform: rotate(270deg);
+  transform-origin: 0% 0%;
+  position: absolute;
+  left: 41%;
+  top: 85%;
+  width: 65%;
+  z-index: 90;
+}
+
 .pen {
+  opacity: 1;
   fill: none;
   stroke: #364056;
-  stroke-width: 13;
+  stroke-width: 14;
   stroke-linecap: round;
 
   stroke-dasharray: 5500 5500;
@@ -339,6 +358,49 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   font-size: 1.05rem;
   color: #e8dcd0;
 
+}
+
+/* Services */
+
+.sub-title{
+  text-align: center;
+  color: #B2A798;
+  font-family: 'AnderfontFree ';
+  font-size: 64pt;
+  margin-left: 30%;
+  margin-top: -30%;
+  line-height: 0.5%;
+}
+
+.sub-title-2{
+  text-align: center;
+  color: #B2A798;
+  font-family: 'AnderfontFree ';
+  font-size: 64pt;
+  margin-left: 22%;
+  margin-top: -30%;
+  line-height: 1%;
+}
+
+.cena-mob{
+  text-align: center;
+  font-family: 'Akzidenz-Grotesk BQ Extended Medium';
+  letter-spacing: 0.7rem;
+  color: #B2A798;
+}
+
+.tenedor{
+  max-width: 25%;
+  max-height: 50%;
+  margin-top: -80%;
+  margin-left: -30%;
+}
+
+.cuchara{
+  max-width: 25%;
+  max-height: 50%;
+  margin-top: -140%;
+  margin-left: 105%;
 }
 
 /* 
@@ -381,6 +443,15 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     background-color: rgb(202, 203, 198);
   }
 
+  .orange_square{
+    left: 0;
+    height: 200px;
+    width: 330px;
+    background-color: #e95338;
+    display: flex;
+    margin-bottom: 5%;
+  }
+
   .orange-text{
     color: #e95338;
     font-size: 5rem;
@@ -391,13 +462,16 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   }
 
   .text-square{
-    margin-left: 90%;
-    max-width: 1%;
+    margin-left: 100%;
+    margin-top: 18%;
     font-family: 'SlabTallX';
+    font-size: 40pt;
   }
   
   .telephones{
-    margin-left: 10%;
+    margin-left: 20%;
+    font-family: 'SlabTallX';
+    font-size: 16pt;
   }
 
   .message{
@@ -489,6 +563,11 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     width: 80vh;
   }
 
+  .a-la-medida{
+    left: 45vw;
+    width: 80vh;
+  }
+
   #laberinto-video-col{
     height: 100vh;
     max-width: 70vw;
@@ -573,8 +652,6 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     margin-top: -330px;
   }
   
-  
-
   .el-text{
     font-size: 3rem;
     position: relative;
@@ -668,35 +745,11 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   }
 
   .sub-title{
-    text-align: center;
-    color: #AEA495;
-    font-family: 'AnderfontFree ';
-    font-size: 64pt;
     margin-left: 22%;
-    margin-top: -30%;
-    line-height: 0.5%;
   }
 
   .sub-title-2{
-    text-align: center;
-    color: #AEA495;
-    font-family: 'AnderfontFree ';
-    font-size: 64pt;
     margin-left: 10%;
-    margin-top: -30%;
-    line-height: 1%;
-  }
-  .tenedor{
-    max-width: 25%;
-    max-height: 50%;
-    margin-top: -80%;
-    margin-left: -30%;
-  }
-  .cuchara{
-    max-width: 25%;
-    max-height: 50%;
-    margin-top: -140%;
-    margin-left: 105%;
   }
 }
 
@@ -827,34 +880,16 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     filter: drop-shadow(7px 15px 5px #222);
   }
 
-  .sub-title{
-    text-align: center;
-    color: #AEA495;
-    font-family: 'AnderfontFree ';
-    font-size: 64pt;
-    margin-top: -30%;
-    line-height: 0.5%;
-  }
-
   .sub-title-2{
-    text-align: center;
-    color: #AEA495;
-    font-family: 'AnderfontFree ';
-    font-size: 64pt;
     margin-left: 10%;
-    margin-top: -30%;
-    line-height: 1%;
   }
-  .tenedor{
-    max-width: 25%;
-    max-height: 50%;
-    margin-left: 35%;
-  }
-  .cuchara{
-    max-width: 25%;
-    max-height: 50%;
-    margin-left: 35%;
 
+  .tenedor{
+    margin-left: 35%;
+  }
+
+  .cuchara{
+    margin-left: 35%;
   }
 
 }
@@ -1046,6 +1081,10 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   .amazing-food{
     display: none;
   }
+
+  .a-la-medida{
+    display: none;
+  }
   
 }
 
@@ -1075,8 +1114,6 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   #typewriter-2{
     display: none;
   }
-
-  
 
   .welcome-text{
     font-size: 1rem;
@@ -1126,6 +1163,10 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     display: none;
   }
 
+  .a-la-medida{
+    display: none;
+  }
+
   .orange-text{
     color: #e95338;
     font-size: 4rem;
@@ -1158,9 +1199,10 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     font-size: 14pt;
   }
 
-  .offset-md-4 .space{
+  .space{
     margin-left: 18%;
   }
+
   .d-image{
     max-height: 8rem;
     margin-top: -3vh;
@@ -1177,38 +1219,23 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     -webkit-filter: drop-shadow(5px 5px 5px #7070741a);
     filter: drop-shadow(7px 15px 5px rgba(0,0,0,0.5));
   }
+
   .cena-mob{
     margin-left: -10%;
   }
-  .sub-title{
-    text-align: center;
-    color: #AEA495;
-    font-family: 'AnderfontFree ';
-    font-size: 64pt;
-    margin-top: -30%;
-    margin-left: 18%;
-    line-height: 0.5%;
-  }
 
-  
+  .sub-title{
+    margin-left: 18%;
+  }
 
   .sub-title-2{
-    text-align: center;
-    color: #AEA495;
-    font-family: 'AnderfontFree ';
-    font-size: 64pt;
     margin-left: 10%;
-    margin-top: -30%;
-    line-height: 1%;
   }
+
   .tenedor{
-    max-width: 25%;
-    max-height: 50%;
     margin-left: 35%;
   }
   .cuchara{
-    max-width: 25%;
-    max-height: 50%;
     margin-left: 35%;
 
   }
