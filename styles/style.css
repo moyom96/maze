@@ -1086,6 +1086,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   #laberinto-text{
     margin: auto;
     padding: 5%;
+    font-size: 2rem;
   }
 
   .orange_square{
@@ -1133,15 +1134,9 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     display: none;
   }
 
-  #laberinto-video-col{
-    width: 100vw;
-    height: 50vh;
-    text-align: center;
-    position: relative;
-  }
-
   #laberinto-video{
     transform: none;
+    width: 90vw;
   }
 
   .a-la-medida{
