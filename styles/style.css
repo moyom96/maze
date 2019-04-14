@@ -387,21 +387,17 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   letter-spacing: 0.7rem;
   color: #B2A798;
 }
-
 .tenedor{
   max-width: 25%;
   max-height: 50%;
-  margin-top: -80%;
-  margin-left: -30%;
+  margin-left: 40%;
 }
 
 .cuchara{
   max-width: 25%;
   max-height: 50%;
-  margin-top: -140%;
-  margin-left: 105%;
+  margin-left: 40%;
 }
-
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -1105,9 +1101,15 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
     margin-top: 10px;
   }
 
+  .text-square{
+    margin-left: 5%;
+    font-family: 'SlabTallX';
+    font-size: 40pt;
+  }
+
   .d-image{
     max-height: 8rem;
-    margin-top: -6vh;
+    margin-top: -3vh;
     margin-left: 35%;
     margin-bottom: 5%;
     -webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -1116,7 +1118,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
 
   .d-image-2{
     max-height: 8rem;
-    margin-top: -10vh;
+    margin-top: -4vh;
     margin-left: 42%;
     margin-bottom: 5%;
     -webkit-filter: drop-shadow(5px 5px 5px #7070741a);
@@ -1147,17 +1149,27 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   }
 
   .cuchara{
-    margin-left: -10%;
+    margin-left: 40%;
     max-width: 10%;
     max-height: 50%;
-    margin-top: -80%;
   }
 
   .tenedor{
-    margin-left: -10%;
+    margin-left: 40%;
     max-width: 10%;
     max-height: 50%;
-    margin-top: -62%;
+  }
+
+  .telephones{
+    font-family: 'SlabTallX';
+    font-size: 16pt;
+  }
+
+  .message{
+    text-align:center;
+    color:  #e95338;
+    font-family: 'SlabTallX';
+    font-size: 14pt;
   }
   
 }
