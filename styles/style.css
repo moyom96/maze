@@ -20,7 +20,7 @@ section.full-height {
 }
 
 .el-text, .offset-text{
-  letter-spacing: 8px;
+  letter-spacing: 0.21rem;
 }
 
 /* The typing effect */
@@ -683,7 +683,7 @@ a.noClass:active i {text-decoration:none;}  /* selected link */
   .el-text{
     font-size: 3rem;
     position: relative;
-    left: -160px;
+    left: -67%;
   }
 
   .offset-text{
